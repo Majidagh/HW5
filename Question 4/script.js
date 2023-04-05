@@ -1,24 +1,24 @@
-showNotification(getDataFromUser());
+showNotification(getData());
 
 function showNotification({ top = 0, right = 0, className = "", html: msg }) {
-  const notification = document.querySelector(".notification");
-  const messageElm = document.getElementById("message");
+  const notify = document.querySelector(".message-content");
+  const messageShow = document.getElementById("notif");
 
-  notification.style.top = `${top}px`;
-  notification.style.right = `${right}px`;
-  notification.classList.add(className);
-  messageElm.textContent = msg;
+  notify.style.top = `${top}px`;
+  notify.style.right = `${right}px`;
+  notify.classList.add(className);
+  messageShow.textContent = msg;
 }
 
-function getDataFromUser() {
-  const topPosition = +prompt("Enter The Top Position :");
-  const rightPosition = +prompt("Enter The Right Position :");
-  const className = prompt("Enter The Class Name :");
-  const message = prompt("Enter The Notification Message :");
+function getData() {
+  const topPos = +prompt("Enter Top Position :");
+  const rightPos = +prompt("Enter Right Position :");
+  const className = prompt("Enter Class Name :");
+  const message = prompt("Display Message :");
 
   return {
-    top: topPosition,
-    right: rightPosition,
+    top: topPos,
+    right: rightPos,
     className: className,
     html: message,
   };

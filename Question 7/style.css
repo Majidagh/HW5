@@ -1,11 +1,83 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body,
-html {
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 182, 193);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(167, 66, 240);
+  border-radius: 30px;
+  box-shadow: 2px 1px 20px rgba(32, 32, 32, 0.564);
+  padding: 30px 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.user-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid white;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(67, 66, 66);
+}
+
+.user-pic img {
+  width: 100%;
   height: 100%;
-  font-family: Poppins-Regular, sans-serif;
+  /* object-fit: cover; */
+}
+
+.job_tag {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgb(225, 225, 225);
+  letter-spacing: 2px;
+}
+
+.user_Name {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.user_info {
+  font-size: 14px;
+  color: rgb(227, 227, 227);
+}
+
+.companies {
+  display: flex;
+  gap: 20px;
+}
+
+.company_pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(107, 107, 107);
+  overflow: hidden;
+  background-color: white;
+  padding: 8px;
+}
+
+.company_pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
