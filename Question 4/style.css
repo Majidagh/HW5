@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-size: 20px;
+}
+
+.notification {
+  padding: 30px;
+  border-radius: 5px;
+  position: absolute;
+  color: rgb(0, 255, 115);
+  font-weight: bold;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(146, 138, 138);
+}
+
+.hidden {
+  display: none;
+}
