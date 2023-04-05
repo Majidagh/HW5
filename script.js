@@ -1,15 +1,6 @@
 // Q #1
 
-// let user = {
-//   name: "John",
-//   age: 30,
-// };
-
-// user.sayHello = function () {
-//   alert(`Hello ${user.name}`);
-// };
-
-// user.sayHello();
+gi;
 
 //--------------------------------------------------------
 //Q #2
