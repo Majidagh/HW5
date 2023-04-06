@@ -52,19 +52,19 @@
 //----------------
 // Q #3
 
-// const employees = [];
-// const employee = [
-//   { name: "Majid", age: 32},
-//   { name: "Ali", age: 17},
-//   { name: "Hamed", age: 58},
-//   { name: "Navid", age: 62},
-// ];
+const employees = [];
+const employee = [
+  { name: "Majid", age: 32 },
+  { name: "Ali", age: 17 },
+  { name: "Hamed", age: 58 },
+  { name: "Navid", age: 62 },
+];
 
-// employee.sort(function (a, b) {
-//   return a.age - b.age;
-// });
+const user = employee.sort(function (a, b) {
+  return a.age - b.age;
+});
 
-// console.log(employee.sort());
+console.log(user);
 //--------------------------------------------------------
 // Q #5
 
