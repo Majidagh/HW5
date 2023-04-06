@@ -1,6 +1,6 @@
 // Q #1
 
-// let user = {
+// const user = {
 //   name: "John",
 //   age: 30,
 // };
@@ -45,19 +45,19 @@
 // };
 
 // countStep.increase().increase().read().decrease().read().reset();
-// countStep.decrease();
-// countStep.reset();
-// countStep.read();
+// // countStep.decrease();
+// // countStep.reset();
+// // countStep.read();
 
 //----------------
 // Q #3
 
 // const employees = [];
 // const employee = [
-//   { name: "Majid", age: 32, retiredate: "March 12, 2014" },
-//   { name: "Ali", age: 17, retiredate: "June 2, 2023" },
-//   { name: "Hamed", age: 58, retiredate: "December 20, 2036" },
-//   { name: "Navid", age: 62, retiredate: "April 30, 2020" },
+//   { name: "Majid", age: 32},
+//   { name: "Ali", age: 17},
+//   { name: "Hamed", age: 58},
+//   { name: "Navid", age: 62},
 // ];
 
 // employee.sort(function (a, b) {
@@ -68,12 +68,12 @@
 //--------------------------------------------------------
 // Q #5
 
-// let ask = (question) => {
-//   confirm(question)
-//     ? alert("You agreed.")
-//     : alert("You canceled the execution.");
-// };
-// ask("Do You Agree?");
+let ask = (question) => {
+  confirm(question)
+    ? alert("You agreed.")
+    : alert("You canceled the execution.");
+};
+ask("Do You Agree?");
 
 //--------------------------------------------------------
 

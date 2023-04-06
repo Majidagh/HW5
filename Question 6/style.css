@@ -30,6 +30,17 @@ button {
   cursor: pointer;
 } */
 
+/* svg { */
+/* fill: white; */
+/* color: white; */
+/* width: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  border-radius: 2rem; */
+/* margin-bottom: -60px;
+  border-radius: 60px; */
+/* } */
+
 iframe {
   border: none !important;
 }
@@ -131,6 +142,11 @@ iframe {
   /* margin-bottom: 2rem; */
 }
 
+.wrap-input svg {
+  color: white;
+  margin-bottom: -60px;
+}
+
 #img-user {
   width: 2rem;
   margin-bottom: -40px;
@@ -149,6 +165,7 @@ iframe {
   height: 45px;
   background: transparent;
   padding: 0 5px 0 38px;
+  font-size: 1.2rem;
 }
 
 .focus-input {
@@ -171,16 +188,18 @@ iframe {
   margin-left: 5px;
 }
 
-.wrap-pass img {
+.wrap-pass svg {
   width: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-right: 2rem;
   border-radius: 2rem;
+  color: white;
 }
 
 .pass {
   margin-left: -3rem;
   border-bottom: #c80000;
+  font-size: 1.2rem;
 }
 
 .contact-form-checkbox {
