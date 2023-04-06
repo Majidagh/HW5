@@ -60,11 +60,11 @@
 //   { name: "Navid", age: 62, retiredate: "April 30, 2020" },
 // ];
 
-// employee.sort(function (a, b) {
+// const user = employee.sort(function (a, b) {
 //   return a.age - b.age;
 // });
 
-// console.log(employee.sort());
+// console.log(user);
 //--------------------------------------------------------
 // Q #5
 
